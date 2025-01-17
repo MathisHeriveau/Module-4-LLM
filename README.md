@@ -16,7 +16,7 @@ Les Transformer complets se composent d'un encodeur et d'un décodeur:
   - **Encodeur** : Un encodeur convertit le texte d'entrée en représentation intermédiaire. Un encodeur est un réseau de neurones énorme.
   - **Décodeur** : Un décodeur convertit cette représentation intermédiaire en texte utile. Un décodeur est également un réseau de neurones énorme.
 
-<img src="trasnformateur2.png" alt="Texte alternatif" width="350"/>
+<img src="trasnformateur2.png" alt="Texte alternatif"/>
 
 Pour chaque jeton d'entrée, l'attention automatique pose la question suivante:  
 *"Dans quelle mesure chaque autre jeton d'entrée affecte-t-il l'interprétation de ce jeton ?"*
@@ -32,7 +32,7 @@ Les transformateurs contiennent des centaines de milliards, voire des milliers d
 
 ## Mais comment un LLM génère-t-il du texte ?
 
-<img src="proba.png" alt="Texte alternatif" width="350"/>
+<img src="proba.png" alt="Texte alternatif" width="500"/>
 
 En fait, les LLM sont essentiellement des mécanismes de saisie semi-automatique qui peuvent prédire automatiquement des milliers de jetons.
 
@@ -59,7 +59,7 @@ L'utilisation de LLM pour déduire des prédictions entraîne les problèmes sui
 
 ## LLM pré-entraînés 
 
-<img src="https://www.softwareheritage.org/wp-content/uploads/2023/12/hugging-face-edited.jpg" alt="Texte alternatif" width="350"/>
+<img src="hugging-face-edited.jpg" alt="Texte alternatif" width="350"/>
 
 La transformation d'un LLM de base en une solution répondant aux besoins d'une application nécessite un processus appelé **ajustement**. Un processus secondaire appelé **distillation** génère une version plus petite (moins de paramètres) du modèle affiné.
 
